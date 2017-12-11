@@ -9,7 +9,7 @@ object ApplicationMain extends App {
   implicit val numberOfShards: Int = 100
 
   val system = ActorSystem("MyActorSystem")
-  val pingActor = system.actorOf(PingActor.props, "pingActor")
+  //val pingActor = system.actorOf(PingActor.props, "pingActor")
   //val pongActor = system.actorOf(PongActor.props, "pongActor")
 
   val pingRegion = ClusterSharding(system).start(
@@ -23,17 +23,27 @@ object ApplicationMain extends App {
       case ForIdentifier(id, _) ⇒ getShardId(id)
     })
 
+  val pongRegion = ClusterSharding(system).start(
+    typeName = "SupervisedCounter1",
+    entityProps = Props(new PongActor()),
+    settings = ClusterShardingSettings(system),
+    extractEntityId =  {
+      case ForIdentifier(id, cmd) ⇒ (id, cmd)
+    },
+    extractShardId = {
+      case ForIdentifier(id, _) ⇒ getShardId(id)
+    })
 
-  println("about to send msg..")
+
+  println("about to send msg for ping..")
   pingRegion ! ForIdentifier("1", Added(1))
- // pingActor ! Added(1)
-  //pongActor ! PingActor.Initialize
-  // This example app will ping pong 3 times and thereafter terminate the ActorSystem -
-  // see counter logic in PingActor
+
+  println("about to send msg for pong..")
+  pongRegion ! ForIdentifier("2", Subtracted(1))
 
 
 
-  Thread sleep 3000
+  Thread sleep 10000
   system.terminate()
 
   def getShardId(entityId: String)(implicit numberOfShards: Int) : String =

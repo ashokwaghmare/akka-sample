@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d7782e-501a-4a58-806b-854c551778fc" name="Default" comment="" />
+    <list default="true" id="89d7782e-501a-4a58-806b-854c551778fc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000152.sst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000154.sst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000157.sst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/MANIFEST-000156" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Encryption$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Encryption.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$delayedInit$body.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveEvent$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000158.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000055.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000073.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000094.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000096.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000099.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000100.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/MANIFEST-000098" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$com$example$PingActor$$update$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$com$example$PongActor$$update$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveRecover$1.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Event.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Event.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveCommand$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveEvent$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveEvent$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$Initialize$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$Initialize$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$PingMessage$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$PingMessage$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$PingMessage.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$PingMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveCommand$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/journal1/CURRENT" afterPath="$PROJECT_DIR$/target/journal1/CURRENT" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -36,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PingActor.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PingActor.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="e#21#67#0" expanded="true" />
               </folding>
@@ -51,8 +110,8 @@
       <file leaf-file-name="PongActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -61,8 +120,8 @@
       <file leaf-file-name="Encryption.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+            <state relative-caret-position="171">
+              <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
               <folding>
                 <element signature="e#21#55#0" expanded="true" />
               </folding>
@@ -73,11 +132,21 @@
       <file leaf-file-name="ApplicationMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="377">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="e#21#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EncryptionMain.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExPersistentActor.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExPersistentActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -109,6 +178,9 @@
       <find>In PingActor - starting ping-pong</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -119,14 +191,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/scala/com/example/PingPongActorSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/PersistentActor.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" />
       </list>
     </option>
   </component>
@@ -135,6 +208,7 @@
     <option name="width" value="1440" />
     <option name="height" value="824" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -221,6 +295,7 @@
       <recent name="com.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/com/example" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
@@ -246,6 +321,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.example.ApplicationMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="akka-sample" />
+      <envs />
+    </configuration>
+    <configuration name="EncryptionMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.EncryptionMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -356,14 +450,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.PingPongActorSpec.A Ping actor must send back a ping on a pong" />
       <item index="1" class="java.lang.String" itemvalue="Application.ApplicationMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EncryptionMain" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.ApplicationMain" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.PingPongActorSpec.A Ping actor must send back a ping on a pong" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EncryptionMain" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.PingPongActorSpec.A Ping actor must send back a ping on a pong" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +537,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -453,7 +548,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5143061" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -562,49 +657,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/ObjectStreamClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#21#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="686" column="0" lean-forward="false" selection-start-line="686" selection-start-column="0" selection-end-line="686" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#21#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="171">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
           <folding>
             <element signature="e#21#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#21#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#21#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,29 +3,31 @@ package com.example
 import akka.actor.{Actor, ActorLogging, Props}
 import akka.persistence.PersistentActor
 
-class PongActor extends Actor with PersistentActor with ActorLogging {
+case class Decrement(counter:Int) extends Event
+case class Subtracted(c:Int) extends Cmd
+
+class PongActor extends Actor with ExaPersistentActor with ActorLogging {
   import PingActor._
 
-  override def persistenceId: String = "counter-actor-1"
+  override def persistenceId: String = entryName+"-"+12
   var counter = 0
+  val privateKey = "privateOfPong"
 
-  private def update: (Event => Unit) =  {
-    case Increment(c) => counter = c
+
+  def receiveEvent: Receive = {
+    case dec: Decrement =>
+      println("recovering11..."+dec)
+      counter = counter - dec.counter
+      println("after rec counter "+counter)
   }
-
-  def receiveRecover: Receive = {
-    case event: Event =>
-      println("recovering..."+event)
-      update(event)
-  }
-
 
 
   override def receiveCommand: Receive = {
-    case Added(c) =>
-      println("in actor..")
-      log.info("In PingActor - starting ping-pong")
-      persist(Increment(c))(update)
+    case Subtracted(c) =>
+      println("counter>>"+counter)
+      val encrypt = Encryption.encrypt(privateKey, Decrement(c))
+      writeWithoutApply(encrypt)
+      println("persist counter"+counter)
       sender() ! PingMessage("1 added ping")
 
   }

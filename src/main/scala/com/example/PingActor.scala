@@ -5,35 +5,31 @@ import akka.persistence.PersistentActor
 
 trait Event extends Serializable
 trait Cmd
-case class Increment(countet:Int) extends Event
+case class Increment(counter:Int) extends Event
 case class Added(c:Int) extends Cmd
+
 class PingActor extends Actor with ExaPersistentActor with ActorLogging {
   import PingActor._
 
 
-  override def persistenceId: String = entryName+"-"+entryId
+  override def persistenceId: String = entryName+"-"+11
   var counter = 0
+  val privateKey = "private"
 
-  private def update: (Event => Unit) =  {
-    case Increment(c) => counter = counter + c
-  }
 
   def receiveEvent: Receive = {
-    case event: Increment =>
-      println("recovering11..."+event)
-      update(event)
+    case inc: Increment =>
+      println("recovering11..."+inc)
+      counter = counter + inc.counter
       println("after rec counter "+counter)
   }
 
 
   override def receiveCommand: Receive = {
     case Added(c) =>
-      println("in actor..")
-      println("persistenceId>> "+persistenceId)
-      log.info("In PingActor - starting ping-pong")
       println("counter>>"+counter)
-
-      persist(Increment(c))(update)
+      val encrypt = Encryption.encrypt(privateKey, Increment(c))
+      writeWithoutApply(encrypt)
       println("persist counter"+counter)
       sender() ! PingMessage("1 added ping")
 
