@@ -1,0 +1,10 @@
+New log file opened at Fri Dec 08 11:25:48 IST 2017 by 18112@localhost
+Taking next connection to: 58421
+New client attempting to connect on port: 58422-58421
+  Address = /127.0.0.1:58421
+This client on port 58422 has uuid 568184a5-be39-4a9d-af99-31c1d30f11b8 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-568184a5-be39-4a9d-af99-31c1d30f11b8
+Taking next connection to: 58421
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 58421
