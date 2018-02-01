@@ -1,0 +1,259 @@
+<changelist name="asdas" date="1513919041580" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/shelved.patch" />
+  <option name="DESCRIPTION" value="asdas" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Added.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Added.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Added.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor$$anonfun$receiveRecover$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ForIdentifier$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ForIdentifier$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ForIdentifier$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$6.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$6.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$6.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/journal1/MANIFEST-000156" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor$Initialize$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor$Initialize$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$Initialize$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$4.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$4.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$4.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$2.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$delayedInit$body.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$delayedInit$body.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$delayedInit$body.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveEvent$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveEvent$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$$anonfun$receiveEvent$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PongActor.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PongActor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PongActor.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+    <option name="AFTER_PATH" value="target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/output_dsp" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$3.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+    <option name="AFTER_PATH" value="project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/output" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveCommand$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveCommand$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PongActor$$anonfun$receiveCommand$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Event.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Event.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Event.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+    <option name="AFTER_PATH" value="target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/output1" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Decrement.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Decrement.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Decrement.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Increment$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Increment$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Increment$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Subtracted$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Subtracted$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Subtracted$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+    <option name="AFTER_PATH" value="target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/inputs" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$1.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$5.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$5.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$5.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Added$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Added$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Added$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ForIdentifier.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ForIdentifier.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ForIdentifier.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Subtracted.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Subtracted.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Subtracted.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Decrement$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Decrement$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Decrement$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Encryption$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Encryption$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Encryption$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveCommand$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveCommand$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$$anonfun$receiveCommand$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2$.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor$class.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor$class.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor$class.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor$PingMessage.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor$PingMessage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$PingMessage.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/EncryptionMain$delayedInit$body.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/EncryptionMain$delayedInit$body.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/EncryptionMain$delayedInit$body.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Increment.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Increment.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Increment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$2.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveEvent$1.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveEvent$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PongActor$$anonfun$receiveEvent$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/Cmd.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/Cmd.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/Cmd.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/EncryptionMain$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/EncryptionMain$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/EncryptionMain$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+    <option name="AFTER_PATH" value="project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/inputs1" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor$PingMessage$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor$PingMessage$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$PingMessage$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PongActor$.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PongActor$.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PongActor$.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/scala-2.11/classes/com/example/PingActor.class" />
+    <option name="AFTER_PATH" value="target/scala-2.11/classes/com/example/PingActor.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/asdas/PingActor.class" />
+  </binary>
+</changelist>

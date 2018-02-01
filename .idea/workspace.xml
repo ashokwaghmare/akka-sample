@@ -1,46 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" line="16" mnemonic="6" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="89d7782e-501a-4a58-806b-854c551778fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000152.sst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000154.sst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000157.sst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/MANIFEST-000156" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Encryption$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Encryption.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$delayedInit$body.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveEvent$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000158.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000055.sst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000073.sst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000094.sst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000096.sst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000099.sst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000100.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/MANIFEST-000098" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$com$example$PingActor$$update$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$com$example$PongActor$$update$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveRecover$1.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Added$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Added.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$delayedInit$body.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Cmd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Decrement$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Decrement.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Encryption$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/EncryptionMain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/EncryptionMain$delayedInit$body.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Event.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor$$anonfun$receiveRecover$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor$class.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ExaPersistentActor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ForIdentifier$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ForIdentifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Increment$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Increment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$$anonfun$receiveCommand$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$$anonfun$receiveEvent$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$Initialize$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$PingMessage$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor$PingMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PingActor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PongActor$$anonfun$receiveCommand$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PongActor$$anonfun$receiveEvent$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PongActor$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/PongActor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Subtracted$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/Subtracted.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/inputs1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/output1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$3c29c290c206a68253d5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$35aefc036ef5ea2b5004$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$35aefc036ef5ea2b5004.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$823a4ab80b4e3eb1d568.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9326531c3e153a449c45.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$f6adf99d52acc2bada8a.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$fccb4ae5d6987a68ac8f.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000016.sst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/000018.sst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/journal1/MANIFEST-000022" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/CounterSupervisor$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/CounterSupervisor$$anonfun$receive$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/CounterSupervisor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/DynamoDBManager$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/DynamoDBManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_amazonaws_aws_java_sdk_core_1_11_253_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_amazonaws_aws_java_sdk_dynamodb_1_11_253_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_amazonaws_aws_java_sdk_kms_1_11_253_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_amazonaws_aws_java_sdk_s3_1_11_253_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_amazonaws_jmespath_java_1_11_253_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_6_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_persistence_dynamodb_2_11_1_1_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_persistence_query_2_11_2_5_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__commons_codec_commons_codec_1_9_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__commons_logging_commons_logging_1_1_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__joda_time_joda_time_2_8_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_httpcomponents_httpclient_4_5_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_httpcomponents_httpcore_4_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__software_amazon_ion_ion_java_1_0_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/shelved.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dynamodb.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/example/CounterSupervisor.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/example/DynamoDBManager.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/dynamodb.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=com.example.PingPongActorSpec/test/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/com.example.PingPongActorSpec.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$621f7b39a7e5e51cf0d9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3157e55679fb06738648.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$364c292415c79c41285c.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2$$anonfun$$sbtdef$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5da1f6d06e36a804ebe8$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5da1f6d06e36a804ebe8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8002c5398bd40ff7e38d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f159a3b1613b0b5f38a8.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f159a3b1613b0b5f38a8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000152.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000154.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000157.sst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/000158.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/journal1/MANIFEST-000156" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$621f7b39a7e5e51cf0d9$.class" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$3c29c290c206a68253d5$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$621f7b39a7e5e51cf0d9.cache" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$3c29c290c206a68253d5.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3157e55679fb06738648$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$f6adf99d52acc2bada8a$$anonfun$$sbtdef$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3157e55679fb06738648$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$f6adf99d52acc2bada8a$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$3157e55679fb06738648.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$35aefc036ef5ea2b5004.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$364c292415c79c41285c$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$823a4ab80b4e3eb1d568$$anonfun$$sbtdef$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$364c292415c79c41285c$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$823a4ab80b4e3eb1d568$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$364c292415c79c41285c.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$823a4ab80b4e3eb1d568.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$53691421ebb9941b2bf2.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$9326531c3e153a449c45.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5da1f6d06e36a804ebe8$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$35aefc036ef5ea2b5004$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$5da1f6d06e36a804ebe8.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$f6adf99d52acc2bada8a.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8002c5398bd40ff7e38d$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$9326531c3e153a449c45$$anonfun$$sbtdef$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8002c5398bd40ff7e38d$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$9326531c3e153a449c45$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$8002c5398bd40ff7e38d.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$fccb4ae5d6987a68ac8f.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f159a3b1613b0b5f38a8$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$fccb4ae5d6987a68ac8f$$anonfun$$sbtdef$1.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f159a3b1613b0b5f38a8$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$fccb4ae5d6987a68ac8f$.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$4.class" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$4.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$5.class" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$5.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$6.class" afterPath="$PROJECT_DIR$/.idea/shelf/asdas/ApplicationMain$$anonfun$6.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/$global/clean/$global/streams/out" afterPath="$PROJECT_DIR$/target/journal1/000023.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Added$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Added$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Added.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Added.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$$anonfun$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain$delayedInit$body.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ApplicationMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Cmd.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Cmd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Decrement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Encryption$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Encryption$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/EncryptionMain$delayedInit$body.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Event.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Event.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$receiveRecover$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$$anonfun$writeWithoutApply$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor$class.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ExaPersistentActor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ForIdentifier$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ForIdentifier$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ForIdentifier.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/ForIdentifier.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Increment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveCommand$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$$anonfun$receiveCommand$1.class" />
@@ -51,19 +186,91 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$PingMessage.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor$PingMessage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PingActor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveCommand$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveEvent$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$$anonfun$receiveEvent$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/PongActor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/example/Subtracted.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/example/PingPongActorSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/example/PingPongActorSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/example/PingPongActorSpec$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/example/PingPongActorSpec$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/example/PingPongActorSpec.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/example/PingPongActorSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/akka-sample.iml" afterPath="$PROJECT_DIR$/.idea/modules/akka-sample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/akka-sample-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/akka-sample-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/akka-sample-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/akka-sample-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-akka-sample-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/journal1/CURRENT" afterPath="$PROJECT_DIR$/target/journal1/CURRENT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample$sources_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample$sources_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/akka-sample_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample$sources_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-akka-sample_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,36 +301,14 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PingActor.scala" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PingActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="420">
+              <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
-                <element signature="e#21#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PongActor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Encryption.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-              <folding>
-                <element signature="e#21#55#0" expanded="true" />
+                <element signature="e#21#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,21 +317,12 @@
       <file leaf-file-name="ApplicationMain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="e#21#59#0" expanded="true" />
+                <element signature="e#1546#10919#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EncryptionMain.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -154,8 +330,18 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="150">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PingPongActorSpec.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/example/PingPongActorSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -164,8 +350,28 @@
       <file leaf-file-name="ExPersistentActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="990">
+              <caret line="66" column="67" lean-forward="false" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamoDBManager.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/DynamoDBManager.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EncryptionMain.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -176,7 +382,26 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>In PingActor - starting ping-pong</find>
+      <find>tableName&gt;&gt;</find>
+      <find>REGION</find>
+      <find>snap</find>
+      <find>readJournal</find>
+      <find>eventsByPersistenceId</find>
+      <find>id</find>
+      <find>plug</find>
+      <find>internalPersist</find>
+      <find>dele</find>
+      <find>persistenceId</find>
+      <find>batch</find>
+      <find>pendingInvocations</find>
+      <find>pe</find>
+      <find>r</find>
+      <find>1111</find>
+      <find>pingRegion</find>
     </findStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence-dynamodb_2.11/jars/akka-persistence-dynamodb_2.11-1.1.0.jar!/akka/persistence/dynamodb</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -192,21 +417,26 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/example/PingPongActorSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/PersistentActor.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" />
+        <option value="$PROJECT_DIR$/src/test/resources/dynamodb.conf" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/resources/dynamodb.conf" />
+        <option value="$PROJECT_DIR$/src/main/resources/reference.conf" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/CounterSupervisor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/DynamoDBManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +454,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,13 +474,6 @@
               <item name="akka-sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="akka-sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="akka-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="akka-sample" type="b2602c69:ProjectViewProjectNode" />
@@ -277,20 +503,35 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="akka-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akka-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akka-sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akka-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example" />
     </key>
@@ -321,16 +562,20 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.example.ApplicationMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="akka-sample" />
-      <envs />
+      <envs>
+        <env name="AWS_ACCESS_KEY_ID" value="applmgr" />
+        <env name="AWS_SECRET_ACCESS_KEY" value="applmgr" />
+        <env name="AWS_DEFAULT_REGION" value="us-west-2" />
+      </envs>
     </configuration>
     <configuration name="EncryptionMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -451,9 +696,9 @@
       <listeners />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.PingPongActorSpec.A Ping actor must send back a ping on a pong" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ApplicationMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EncryptionMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ApplicationMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EncryptionMain" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.PingPongActorSpec.A Ping actor must send back a ping on a pong" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -464,7 +709,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1512967870943" />
+    <option name="lastUpdateTimestamp" value="1514718825391" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -504,6 +749,14 @@
       <option name="presentableId" value="Default" />
       <updated>1512711534014</updated>
     </task>
+    <task id="LOCAL-00001" summary="asdas">
+      <created>1513919042146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513919042146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -536,52 +789,114 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.48569384" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5143061" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5143061" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19308357" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32564843" sideWeight="0.48569384" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.48569384" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.4-sources.jar!/akka/actor/ActorSystem.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="134" column="7" lean-forward="false" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="309" column="6" lean-forward="false" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,12 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-          <folding>
-            <element signature="e#3452#33712#0" expanded="false" />
-            <element signature="e#33967#35681#0" expanded="false" />
-            <element signature="e#35688#46123#0" expanded="false" />
-            <element signature="e#46659#50163#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,10 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="162" column="33" lean-forward="false" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
-          <folding>
-            <element signature="e#5182#10413#0" expanded="false" />
-            <element signature="e#10707#17360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,34 +961,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="686" column="0" lean-forward="false" selection-start-line="686" selection-start-column="0" selection-end-line="686" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-          <folding>
-            <element signature="e#21#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="559">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="206">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="e#21#59#0" expanded="true" />
+            <element signature="e#1546#10919#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,26 +993,265 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.4-sources.jar!/akka/actor/ActorSystem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="134" column="7" lean-forward="false" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.4-sources.jar!/akka/actor/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="309" column="6" lean-forward="false" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.5.4.jar!/reference.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/srcs/akka-persistence_2.11-2.5.4-sources.jar!/akka/persistence/PersistentActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="162" column="33" lean-forward="false" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/ObjectStreamClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="686" column="0" lean-forward="false" selection-start-line="686" selection-start-column="0" selection-end-line="686" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.amazonaws/aws-java-sdk-core/srcs/aws-java-sdk-core-1.11.253-sources.jar!/com/amazonaws/auth/AWSCredentialsProviderChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/reference.conf" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence-query_2.11/srcs/akka-persistence-query_2.11-2.5.8-sources.jar!/akka/persistence/query/PersistenceQuery.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence-dynamodb_2.11/srcs/akka-persistence-dynamodb_2.11-1.1.0-sources.jar!/akka/persistence/dynamodb/journal/DynamoDBJournal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/srcs/akka-persistence_2.11-2.5.8-sources.jar!/akka/persistence/journal/AsyncWriteJournal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="244" column="27" lean-forward="false" selection-start-line="244" selection-start-column="6" selection-end-line="244" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/srcs/akka-persistence_2.11-2.5.8-sources.jar!/akka/persistence/JournalProtocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PongActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.8-sources.jar!/akka/actor/FaultHandling.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence-dynamodb_2.11/srcs/akka-persistence-dynamodb_2.11-1.1.0-sources.jar!/akka/persistence/dynamodb/journal/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.8-sources.jar!/akka/actor/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8355">
+          <caret line="567" column="10" lean-forward="false" selection-start-line="567" selection-start-column="10" selection-end-line="567" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/srcs/akka-persistence_2.11-2.5.8-sources.jar!/akka/persistence/Persistence.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="72" column="3" lean-forward="true" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/CounterSupervisor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/srcs/akka-persistence_2.11-2.5.8-sources.jar!/akka/persistence/Eventsourced.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/srcs/akka-persistence_2.11-2.5.8-sources.jar!/akka/persistence/PersistentActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="204" column="16" lean-forward="false" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/Encryption.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ExPersistentActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="67" lean-forward="false" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/EncryptionMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dynamodb.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/DynamoDBManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/PingActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
-            <element signature="e#21#67#0" expanded="true" />
+            <element signature="e#21#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-cluster-sharding_2.11/srcs/akka-cluster-sharding_2.11-2.5.8-sources.jar!/akka/cluster/sharding/ClusterSharding.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="255" column="19" lean-forward="true" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/ApplicationMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#21#59#0" expanded="true" />
+            <element signature="e#1546#10919#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/example/PingPongActorSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

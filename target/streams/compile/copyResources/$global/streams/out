@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/ashokwaghmare/projects/akka-sample/src/main/resources/dynamodb.conf,/Users/ashokwaghmare/projects/akka-sample/target/scala-2.11/classes/dynamodb.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ashokwaghmare/projects/akka-sample/src/main/resources/application.conf,/Users/ashokwaghmare/projects/akka-sample/target/scala-2.11/classes/application.conf)[0m

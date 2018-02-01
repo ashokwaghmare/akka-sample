@@ -4,7 +4,7 @@
 		module="akka-sample-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171209180548"
+		publication="20180201105440"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
