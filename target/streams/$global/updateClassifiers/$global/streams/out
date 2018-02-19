@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for default#akka-sample$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang#scala-library;2.11.11 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4574cf67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d97b3f4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.11
 [debug] 	found org.scala-lang#scala-library;2.11.11 in sbt-chain
 [debug] 	[2.11.11] org.scala-lang#scala-library;2.11.11
@@ -18,7 +18,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang#scala-library;2.11.11 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@260563e6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57eb50cc
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-cluster-sharding_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-cluster-sharding_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6432edf9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57ebebbf
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster-sharding_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-cluster-sharding_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-cluster-sharding_2.11;2.5.8
@@ -35,7 +35,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-cluster-sharding_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-cluster_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fc78686
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@716c801b
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-cluster_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-cluster_2.11;2.5.8
@@ -44,7 +44,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-remote_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b6c17bd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c95a921
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-remote_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-remote_2.11;2.5.8
@@ -53,7 +53,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cf31ee8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@466b9e5a
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-actor_2.11;2.5.8
@@ -62,7 +62,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe#config;1.3.2 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c93a490
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f96a33
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.2
 [debug] 	found com.typesafe#config;1.3.2 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe#config;1.3.2 [compile->runtime]
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dc4b47c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62f54063
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-stream_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-stream_2.11;2.5.8
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.1 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47e1a451
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3232ac72
 [debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.1
 [debug] 	found org.reactivestreams#reactive-streams;1.0.1 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.1 [compile->runtime]
@@ -87,7 +87,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.1 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.2 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11eb16ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e79706e
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.2.2
 [debug] 	found com.typesafe#ssl-config-core_2.11;0.2.2 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.2 [compile->runtime]
@@ -95,7 +95,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.2 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7463cfc9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f335433
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -103,7 +103,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-protobuf_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-protobuf_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@255d7784
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74d21801
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-protobuf_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-protobuf_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-protobuf_2.11;2.5.8
@@ -112,7 +112,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-protobuf_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.netty#netty;3.10.6.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.10.6.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2014de2b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d44c93e
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.6.Final
 [debug] 	found io.netty#netty;3.10.6.Final in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.netty#netty;3.10.6.Final [compile->runtime]
@@ -120,7 +120,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.netty#netty;3.10.6.Final [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.aeron#aeron-driver;1.3.0 [compile->default(compile)]
 [info] Resolving io.aeron#aeron-driver;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40d9495b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@308f4ffa
 [debug] sbt-chain: module revision found in cache: io.aeron#aeron-driver;1.3.0
 [debug] 	found io.aeron#aeron-driver;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.aeron#aeron-driver;1.3.0 [compile->runtime]
@@ -128,7 +128,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.aeron#aeron-driver;1.3.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.aeron#aeron-client;1.3.0 [compile->default(compile)]
 [info] Resolving io.aeron#aeron-client;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1660af41
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b0df1a5
 [debug] sbt-chain: module revision found in cache: io.aeron#aeron-client;1.3.0
 [debug] 	found io.aeron#aeron-client;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.aeron#aeron-client;1.3.0 [compile->runtime]
@@ -136,7 +136,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.aeron#aeron-client;1.3.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.agrona#agrona;0.9.6 [compile->default(compile)]
 [info] Resolving org.agrona#agrona;0.9.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2544f0a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f79dc6c
 [debug] sbt-chain: module revision found in cache: org.agrona#agrona;0.9.6
 [debug] 	found org.agrona#agrona;0.9.6 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.agrona#agrona;0.9.6 [compile->runtime]
@@ -144,7 +144,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.agrona#agrona;0.9.6 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-distributed-data_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-distributed-data_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38b796cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a999595
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-distributed-data_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-distributed-data_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-distributed-data_2.11;2.5.8
@@ -153,7 +153,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-distributed-data_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.lmdbjava#lmdbjava;0.6.0 [compile->default(compile)]
 [info] Resolving org.lmdbjava#lmdbjava;0.6.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ad5a165
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b81cb0b
 [debug] sbt-chain: module revision found in cache: org.lmdbjava#lmdbjava;0.6.0
 [debug] 	found org.lmdbjava#lmdbjava;0.6.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.lmdbjava#lmdbjava;0.6.0 [compile->runtime]
@@ -161,7 +161,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.lmdbjava#lmdbjava;0.6.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-ffi;2.1.6 [compile->default(compile)]
 [info] Resolving com.github.jnr#jnr-ffi;2.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24464706
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d70dd64
 [debug] sbt-chain: module revision found in cache: com.github.jnr#jnr-ffi;2.1.6
 [debug] 	found com.github.jnr#jnr-ffi;2.1.6 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-ffi;2.1.6 [compile->runtime]
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-ffi;2.1.6 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jffi;1.2.16 [compile->default(compile)]
 [info] Resolving com.github.jnr#jffi;1.2.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e6cc07a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74741898
 [debug] sbt-chain: module revision found in cache: com.github.jnr#jffi;1.2.16
 [debug] 	found com.github.jnr#jffi;1.2.16 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jffi;1.2.16 [compile->runtime]
@@ -177,7 +177,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jffi;1.2.16 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm;5.0.3 [compile->default(compile)]
 [info] Resolving org.ow2.asm#asm;5.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@159bb843
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f948907
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm;5.0.3
 [debug] 	found org.ow2.asm#asm;5.0.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm;5.0.3 [compile->runtime]
@@ -185,7 +185,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm;5.0.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-commons;5.0.3 [compile->default(compile)]
 [info] Resolving org.ow2.asm#asm-commons;5.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8d93567
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e1470f1
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-commons;5.0.3
 [debug] 	found org.ow2.asm#asm-commons;5.0.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-commons;5.0.3 [compile->runtime]
@@ -193,7 +193,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-commons;5.0.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-tree;5.0.3 [compile->default(compile)]
 [info] Resolving org.ow2.asm#asm-tree;5.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5eaf7745
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a32445a
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-tree;5.0.3
 [debug] 	found org.ow2.asm#asm-tree;5.0.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-tree;5.0.3 [compile->runtime]
@@ -201,7 +201,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-tree;5.0.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-analysis;5.0.3 [compile->default(compile)]
 [info] Resolving org.ow2.asm#asm-analysis;5.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d50a236
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e1d3838
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-analysis;5.0.3
 [debug] 	found org.ow2.asm#asm-analysis;5.0.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-analysis;5.0.3 [compile->runtime]
@@ -209,7 +209,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-analysis;5.0.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-util;5.0.3 [compile->default(compile)]
 [info] Resolving org.ow2.asm#asm-util;5.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7adfad0e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3852fd3
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-util;5.0.3
 [debug] 	found org.ow2.asm#asm-util;5.0.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-util;5.0.3 [compile->runtime]
@@ -217,7 +217,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.ow2.asm#asm-util;5.0.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-x86asm;1.0.2 [compile->default(compile)]
 [info] Resolving com.github.jnr#jnr-x86asm;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20b1557a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@583a19
 [debug] sbt-chain: module revision found in cache: com.github.jnr#jnr-x86asm;1.0.2
 [debug] 	found com.github.jnr#jnr-x86asm;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-x86asm;1.0.2 [compile->runtime]
@@ -225,7 +225,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-x86asm;1.0.2 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-constants;0.9.9 [compile->default(compile)]
 [info] Resolving com.github.jnr#jnr-constants;0.9.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a99761
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9e279e9
 [debug] sbt-chain: module revision found in cache: com.github.jnr#jnr-constants;0.9.9
 [debug] 	found com.github.jnr#jnr-constants;0.9.9 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-constants;0.9.9 [compile->runtime]
@@ -233,7 +233,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.github.jnr#jnr-constants;0.9.9 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-persistence_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75a3dcf3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@292d6405
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-persistence_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-persistence_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-persistence_2.11;2.5.8
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-cluster-tools_2.11;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-cluster-tools_2.11;2.5.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@714149be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f4ffcf1
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster-tools_2.11;2.5.8
 [debug] 	found com.typesafe.akka#akka-cluster-tools_2.11;2.5.8 in sbt-chain
 [debug] 	[2.5.8] com.typesafe.akka#akka-cluster-tools_2.11;2.5.8
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-cluster-tools_2.11;2.5.8 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-core_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-core_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f7f3d6d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b7e092c
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-core_2.11;1.0.0
 [debug] 	found io.kamon#kamon-core_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-core_2.11;1.0.0 [compile->runtime]
@@ -259,7 +259,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-core_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.25 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.25 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5874cc3d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45238015
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.25
 [debug] 	found org.slf4j#slf4j-api;1.7.25 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
@@ -267,15 +267,33 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.hdrhistogram#HdrHistogram;2.1.9 [compile->default(compile)]
 [info] Resolving org.hdrhistogram#HdrHistogram;2.1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b792ac9
-[debug] sbt-chain: module revision found in cache: org.hdrhistogram#HdrHistogram;2.1.9
-[debug] 	found org.hdrhistogram#HdrHistogram;2.1.9 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5601142d
+[info] Resolving org.hdrhistogram#HdrHistogram;2.1.9 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5601142d
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/org.hdrhistogram/HdrHistogram/2.1.9/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.hdrhistogram#HdrHistogram;2.1.9
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/org.hdrhistogram/HdrHistogram/2.1.9/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.hdrhistogram#HdrHistogram;2.1.9
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/org.hdrhistogram/HdrHistogram/2.1.9/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.hdrhistogram#HdrHistogram;2.1.9
+[debug] 		tried https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom
+[debug] 	public: found md file for org.hdrhistogram#HdrHistogram;2.1.9
+[debug] 		=> https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom (2.1.9)
+[debug] downloading https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom
+[debug] 	[SUCCESSFUL ] org.hdrhistogram#HdrHistogram;2.1.9!HdrHistogram.pom(pom.original) (1223ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 	found org.hdrhistogram#HdrHistogram;2.1.9 in public
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.hdrhistogram#HdrHistogram;2.1.9 [compile->runtime]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.hdrhistogram#HdrHistogram;2.1.9 [compile->compile]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.hdrhistogram#HdrHistogram;2.1.9 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.lihaoyi#fansi_2.11;0.2.4 [compile->default(compile)]
 [info] Resolving com.lihaoyi#fansi_2.11;0.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dc3d8ad
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@329a9ac7
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#fansi_2.11;0.2.4
 [debug] 	found com.lihaoyi#fansi_2.11;0.2.4 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.lihaoyi#fansi_2.11;0.2.4 [compile->runtime]
@@ -283,7 +301,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.lihaoyi#fansi_2.11;0.2.4 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.lihaoyi#sourcecode_2.11;0.1.3 [compile->default(compile)]
 [info] Resolving com.lihaoyi#sourcecode_2.11;0.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d254ca1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@335c9600
 [debug] sbt-chain: module revision found in cache: com.lihaoyi#sourcecode_2.11;0.1.3
 [debug] 	found com.lihaoyi#sourcecode_2.11;0.1.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.lihaoyi#sourcecode_2.11;0.1.3 [compile->runtime]
@@ -291,7 +309,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.lihaoyi#sourcecode_2.11;0.1.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-akka-2.5_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-akka-2.5_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a928586
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f6c0d06
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-akka-2.5_2.11;1.0.0
 [debug] 	found io.kamon#kamon-akka-2.5_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-akka-2.5_2.11;1.0.0 [compile->runtime]
@@ -299,7 +317,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-akka-2.5_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-scala-future_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-scala-future_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7285ef3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28698479
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-scala-future_2.11;1.0.0
 [debug] 	found io.kamon#kamon-scala-future_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-scala-future_2.11;1.0.0 [compile->runtime]
@@ -307,7 +325,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-scala-future_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-executors_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-executors_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c979a48
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6589dcb0
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-executors_2.11;1.0.1
 [debug] 	found io.kamon#kamon-executors_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-executors_2.11;1.0.1 [compile->runtime]
@@ -315,7 +333,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-executors_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63ade1b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f5fbedd
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.2.3
 [debug] 	found ch.qos.logback#logback-classic;1.2.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
@@ -323,7 +341,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->ch.qos.logback#logback-classic;1.2.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->ch.qos.logback#logback-core;1.2.3 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d087eba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10b6bf2
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.2.3
 [debug] 	found ch.qos.logback#logback-core;1.2.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
@@ -331,7 +349,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-prometheus_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-prometheus_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f5c97e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@120f467a
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-prometheus_2.11;1.0.0
 [debug] 	found io.kamon#kamon-prometheus_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-prometheus_2.11;1.0.0 [compile->runtime]
@@ -339,15 +357,62 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-prometheus_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.nanohttpd#nanohttpd;2.3.1 [compile->default(compile)]
 [info] Resolving org.nanohttpd#nanohttpd;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63d4e9ab
-[debug] sbt-chain: module revision found in cache: org.nanohttpd#nanohttpd;2.3.1
-[debug] 	found org.nanohttpd#nanohttpd;2.3.1 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c2c2690
+[info] Resolving org.nanohttpd#nanohttpd;2.3.1 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5c2c2690
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/org.nanohttpd/nanohttpd/2.3.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.nanohttpd#nanohttpd;2.3.1
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/org.nanohttpd/nanohttpd/2.3.1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.nanohttpd#nanohttpd;2.3.1
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/org.nanohttpd/nanohttpd/2.3.1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.nanohttpd#nanohttpd;2.3.1
+[debug] 		tried https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+[debug] 	public: found md file for org.nanohttpd#nanohttpd;2.3.1
+[debug] 		=> https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom (2.3.1)
+[debug] downloading https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+[debug] 	[SUCCESSFUL ] org.nanohttpd#nanohttpd;2.3.1!nanohttpd.pom(pom.original) (1180ms)
+[info] Resolving org.nanohttpd#nanohttpd-project;2.3.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.nanohttpd#nanohttpd-project;2.3.1 {}
+[info] Resolving org.nanohttpd#nanohttpd-project;2.3.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.nanohttpd#nanohttpd-project;2.3.1 {}
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/org.nanohttpd/nanohttpd-project/2.3.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.nanohttpd#nanohttpd-project;2.3.1
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/org.nanohttpd/nanohttpd-project/2.3.1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.nanohttpd#nanohttpd-project;2.3.1
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/org.nanohttpd/nanohttpd-project/2.3.1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.nanohttpd#nanohttpd-project;2.3.1
+[debug] 		tried https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+[debug] 	public: found md file for org.nanohttpd#nanohttpd-project;2.3.1
+[debug] 		=> https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom (2.3.1)
+[debug] downloading https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+[debug] 	[SUCCESSFUL ] org.nanohttpd#nanohttpd-project;2.3.1!nanohttpd-project.pom(pom.original) (1287ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/org.nanohttpd/nanohttpd-project/2.3.1/jars/nanohttpd-project.jar
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/org.nanohttpd/nanohttpd-project/2.3.1/jars/nanohttpd-project.jar
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/org.nanohttpd/nanohttpd-project/2.3.1/jars/nanohttpd-project.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.nanohttpd/nanohttpd-project/2.3.1/jars/nanohttpd-project.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.nanohttpd/nanohttpd-project/2.3.1/jars/nanohttpd-project.jar
+[debug] 		tried https://dl.bintray.com/kamon-io/sbt-plugins/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/kamon-io/sbt-plugins/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.jar
+[debug] 	found org.nanohttpd#nanohttpd;2.3.1 in public
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.nanohttpd#nanohttpd;2.3.1 [compile->runtime]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.nanohttpd#nanohttpd;2.3.1 [compile->compile]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.nanohttpd#nanohttpd;2.3.1 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-zipkin_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-zipkin_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@82fd087
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48b7f7ad
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-zipkin_2.11;1.0.0
 [debug] 	found io.kamon#kamon-zipkin_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-zipkin_2.11;1.0.0 [compile->runtime]
@@ -355,7 +420,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-zipkin_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.reporter2#zipkin-reporter;2.2.3 [compile->default(compile)]
 [info] Resolving io.zipkin.reporter2#zipkin-reporter;2.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c9d2254
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19b79852
 [debug] sbt-chain: module revision found in cache: io.zipkin.reporter2#zipkin-reporter;2.2.3
 [debug] 	found io.zipkin.reporter2#zipkin-reporter;2.2.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.reporter2#zipkin-reporter;2.2.3 [compile->runtime]
@@ -363,7 +428,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.reporter2#zipkin-reporter;2.2.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.zipkin2#zipkin;2.4.2 [compile->default(compile)]
 [info] Resolving io.zipkin.zipkin2#zipkin;2.4.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@240d2107
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@128960c1
 [debug] sbt-chain: module revision found in cache: io.zipkin.zipkin2#zipkin;2.4.2
 [debug] 	found io.zipkin.zipkin2#zipkin;2.4.2 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.zipkin2#zipkin;2.4.2 [compile->runtime]
@@ -371,7 +436,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.zipkin2#zipkin;2.4.2 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.reporter2#zipkin-sender-okhttp3;2.2.3 [compile->default(compile)]
 [info] Resolving io.zipkin.reporter2#zipkin-sender-okhttp3;2.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9c5fcb0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b507fca
 [debug] sbt-chain: module revision found in cache: io.zipkin.reporter2#zipkin-sender-okhttp3;2.2.3
 [debug] 	found io.zipkin.reporter2#zipkin-sender-okhttp3;2.2.3 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.reporter2#zipkin-sender-okhttp3;2.2.3 [compile->runtime]
@@ -379,23 +444,117 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.zipkin.reporter2#zipkin-sender-okhttp3;2.2.3 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okhttp3#okhttp;3.9.1 [compile->default(compile)]
 [info] Resolving com.squareup.okhttp3#okhttp;3.9.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15cd93cc
-[debug] sbt-chain: module revision found in cache: com.squareup.okhttp3#okhttp;3.9.1
-[debug] 	found com.squareup.okhttp3#okhttp;3.9.1 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2deb6499
+[info] Resolving com.squareup.okhttp3#okhttp;3.9.1 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2deb6499
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.squareup.okhttp3/okhttp/3.9.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.squareup.okhttp3#okhttp;3.9.1
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.squareup.okhttp3/okhttp/3.9.1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.squareup.okhttp3#okhttp;3.9.1
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.squareup.okhttp3/okhttp/3.9.1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.squareup.okhttp3#okhttp;3.9.1
+[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom
+[debug] 	public: found md file for com.squareup.okhttp3#okhttp;3.9.1
+[debug] 		=> https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom (3.9.1)
+[debug] downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom
+[debug] 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.9.1!okhttp.pom(pom.original) (1092ms)
+[info] Resolving com.squareup.okhttp3#parent;3.9.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.squareup.okhttp3#parent;3.9.1 {}
+[info] Resolving com.squareup.okhttp3#parent;3.9.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.squareup.okhttp3#parent;3.9.1 {}
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.squareup.okhttp3/parent/3.9.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.squareup.okhttp3#parent;3.9.1
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.squareup.okhttp3/parent/3.9.1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.squareup.okhttp3#parent;3.9.1
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.squareup.okhttp3/parent/3.9.1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.squareup.okhttp3#parent;3.9.1
+[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom
+[debug] 	public: found md file for com.squareup.okhttp3#parent;3.9.1
+[debug] 		=> https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom (3.9.1)
+[debug] downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.pom
+[debug] 	[SUCCESSFUL ] com.squareup.okhttp3#parent;3.9.1!parent.pom(pom.original) (1181ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.squareup.okhttp3/parent/3.9.1/jars/parent.jar
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.squareup.okhttp3/parent/3.9.1/jars/parent.jar
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.squareup.okhttp3/parent/3.9.1/jars/parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.squareup.okhttp3/parent/3.9.1/jars/parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.squareup.okhttp3/parent/3.9.1/jars/parent.jar
+[debug] 		tried https://dl.bintray.com/kamon-io/sbt-plugins/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/kamon-io/sbt-plugins/com/squareup/okhttp3/parent/3.9.1/parent-3.9.1.jar
+[debug] 	found com.squareup.okhttp3#okhttp;3.9.1 in public
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okhttp3#okhttp;3.9.1 [compile->runtime]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okhttp3#okhttp;3.9.1 [compile->compile]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okhttp3#okhttp;3.9.1 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okio#okio;1.13.0 [compile->default(compile)]
 [info] Resolving com.squareup.okio#okio;1.13.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10a0c15a
-[debug] sbt-chain: module revision found in cache: com.squareup.okio#okio;1.13.0
-[debug] 	found com.squareup.okio#okio;1.13.0 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@172bec86
+[info] Resolving com.squareup.okio#okio;1.13.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@172bec86
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.squareup.okio/okio/1.13.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.squareup.okio#okio;1.13.0
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.squareup.okio/okio/1.13.0/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.squareup.okio#okio;1.13.0
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.squareup.okio/okio/1.13.0/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.squareup.okio#okio;1.13.0
+[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom
+[debug] 	public: found md file for com.squareup.okio#okio;1.13.0
+[debug] 		=> https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom (1.13.0)
+[debug] downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom
+[debug] 	[SUCCESSFUL ] com.squareup.okio#okio;1.13.0!okio.pom(pom.original) (1269ms)
+[info] Resolving com.squareup.okio#okio-parent;1.13.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.squareup.okio#okio-parent;1.13.0 {}
+[info] Resolving com.squareup.okio#okio-parent;1.13.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.squareup.okio#okio-parent;1.13.0 {}
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.squareup.okio/okio-parent/1.13.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.squareup.okio#okio-parent;1.13.0
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.squareup.okio/okio-parent/1.13.0/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.squareup.okio#okio-parent;1.13.0
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.squareup.okio/okio-parent/1.13.0/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.squareup.okio#okio-parent;1.13.0
+[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom
+[debug] 	public: found md file for com.squareup.okio#okio-parent;1.13.0
+[debug] 		=> https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom (1.13.0)
+[debug] downloading https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.pom
+[debug] 	[SUCCESSFUL ] com.squareup.okio#okio-parent;1.13.0!okio-parent.pom(pom.original) (1144ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.squareup.okio/okio-parent/1.13.0/jars/okio-parent.jar
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.squareup.okio/okio-parent/1.13.0/jars/okio-parent.jar
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.squareup.okio/okio-parent/1.13.0/jars/okio-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.squareup.okio/okio-parent/1.13.0/jars/okio-parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.squareup.okio/okio-parent/1.13.0/jars/okio-parent.jar
+[debug] 		tried https://dl.bintray.com/kamon-io/sbt-plugins/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/kamon-io/sbt-plugins/com/squareup/okio/okio-parent/1.13.0/okio-parent-1.13.0.jar
+[debug] 	found com.squareup.okio#okio;1.13.0 in public
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okio#okio;1.13.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okio#okio;1.13.0 [compile->compile]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.squareup.okio#okio;1.13.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-jaeger_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-jaeger_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dddd839
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13fd4a10
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-jaeger_2.11;1.0.0
 [debug] 	found io.kamon#kamon-jaeger_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-jaeger_2.11;1.0.0 [compile->runtime]
@@ -403,7 +562,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-jaeger_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.uber.jaeger#jaeger-core;0.21.0 [compile->default(compile)]
 [info] Resolving com.uber.jaeger#jaeger-core;0.21.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@99f14e4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7737cb04
 [debug] sbt-chain: module revision found in cache: com.uber.jaeger#jaeger-core;0.21.0
 [debug] 	found com.uber.jaeger#jaeger-core;0.21.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.uber.jaeger#jaeger-core;0.21.0 [compile->runtime]
@@ -411,7 +570,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.uber.jaeger#jaeger-core;0.21.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.uber.jaeger#jaeger-thrift;0.21.0 [compile->default(compile)]
 [info] Resolving com.uber.jaeger#jaeger-thrift;0.21.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25fce410
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3026ef13
 [debug] sbt-chain: module revision found in cache: com.uber.jaeger#jaeger-thrift;0.21.0
 [debug] 	found com.uber.jaeger#jaeger-thrift;0.21.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.uber.jaeger#jaeger-thrift;0.21.0 [compile->runtime]
@@ -419,7 +578,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.uber.jaeger#jaeger-thrift;0.21.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.2.5 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56f6dda7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b8bcd69
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.2.5
 [debug] 	found org.apache.httpcomponents#httpclient;4.2.5 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.2.5 [compile->runtime]
@@ -427,7 +586,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.2.5 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.2.4 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d25c23b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fe96a5a
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.2.4
 [debug] 	found org.apache.httpcomponents#httpcore;4.2.4 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.2.4 [compile->runtime]
@@ -435,7 +594,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.2.4 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64946185
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fe72261
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -443,7 +602,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->commons-codec#commons-codec;1.6 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@536198b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a56e5b8
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.6
 [debug] 	found commons-codec#commons-codec;1.6 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->commons-codec#commons-codec;1.6 [compile->runtime]
@@ -451,7 +610,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->commons-codec#commons-codec;1.6 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-api;0.30.0 [compile->default(compile)]
 [info] Resolving io.opentracing#opentracing-api;0.30.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cd39cf7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ec12441
 [debug] sbt-chain: module revision found in cache: io.opentracing#opentracing-api;0.30.0
 [debug] 	found io.opentracing#opentracing-api;0.30.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-api;0.30.0 [compile->runtime]
@@ -459,7 +618,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-api;0.30.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-util;0.30.0 [compile->default(compile)]
 [info] Resolving io.opentracing#opentracing-util;0.30.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@260f0af4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@679fb8fe
 [debug] sbt-chain: module revision found in cache: io.opentracing#opentracing-util;0.30.0
 [debug] 	found io.opentracing#opentracing-util;0.30.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-util;0.30.0 [compile->runtime]
@@ -467,7 +626,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-util;0.30.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-noop;0.30.0 [compile->default(compile)]
 [info] Resolving io.opentracing#opentracing-noop;0.30.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f4c4555
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a4cece8
 [debug] sbt-chain: module revision found in cache: io.opentracing#opentracing-noop;0.30.0
 [debug] 	found io.opentracing#opentracing-noop;0.30.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-noop;0.30.0 [compile->runtime]
@@ -475,15 +634,62 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.opentracing#opentracing-noop;0.30.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.google.code.gson#gson;2.8.0 [compile->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1de9ba8f
-[debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.8.0
-[debug] 	found com.google.code.gson#gson;2.8.0 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37ab2993
+[info] Resolving com.google.code.gson#gson;2.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@37ab2993
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.google.code.gson/gson/2.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.code.gson#gson;2.8.0
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.google.code.gson/gson/2.8.0/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.google.code.gson#gson;2.8.0
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.google.code.gson/gson/2.8.0/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.google.code.gson#gson;2.8.0
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[debug] 	public: found md file for com.google.code.gson#gson;2.8.0
+[debug] 		=> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (2.8.0)
+[debug] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[debug] 	[SUCCESSFUL ] com.google.code.gson#gson;2.8.0!gson.pom(pom.original) (1123ms)
+[info] Resolving com.google.code.gson#gson-parent;2.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.code.gson#gson-parent;2.8.0 {}
+[info] Resolving com.google.code.gson#gson-parent;2.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.gson#gson-parent;2.8.0 {}
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.google.code.gson/gson-parent/2.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.code.gson#gson-parent;2.8.0
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.google.code.gson/gson-parent/2.8.0/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for com.google.code.gson#gson-parent;2.8.0
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.google.code.gson/gson-parent/2.8.0/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for com.google.code.gson#gson-parent;2.8.0
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[debug] 	public: found md file for com.google.code.gson#gson-parent;2.8.0
+[debug] 		=> https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (2.8.0)
+[debug] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[debug] 	[SUCCESSFUL ] com.google.code.gson#gson-parent;2.8.0!gson-parent.pom(pom.original) (1122ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried /Users/ashokwaghmare/.ivy2/local/com.google.code.gson/gson-parent/2.8.0/jars/gson-parent.jar
+[debug] 		tried /Users/ashokwaghmare/.activator/repository/com.google.code.gson/gson-parent/2.8.0/jars/gson-parent.jar
+[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/com.google.code.gson/gson-parent/2.8.0/jars/gson-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.code.gson/gson-parent/2.8.0/jars/gson-parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.code.gson/gson-parent/2.8.0/jars/gson-parent.jar
+[debug] 		tried https://dl.bintray.com/kamon-io/sbt-plugins/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/kamon-io/sbt-plugins/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.jar
+[debug] 	found com.google.code.gson#gson;2.8.0 in public
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.google.code.gson#gson;2.8.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.google.code.gson#gson;2.8.0 [compile->compile]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.google.code.gson#gson;2.8.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-statsd_2.11;0.6.7 [compile->default(compile)]
 [info] Resolving io.kamon#kamon-statsd_2.11;0.6.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d149f0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46b1b894
 [debug] sbt-chain: module revision found in cache: io.kamon#kamon-statsd_2.11;0.6.7
 [debug] 	found io.kamon#kamon-statsd_2.11;0.6.7 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-statsd_2.11;0.6.7 [compile->runtime]
@@ -491,7 +697,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamon-statsd_2.11;0.6.7 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamino-reporter_2.11;1.0.0 [compile->default(compile)]
 [info] Resolving io.kamon#kamino-reporter_2.11;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@242a2d67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1767772b
 [debug] sbt-chain: module revision found in cache: io.kamon#kamino-reporter_2.11;1.0.0
 [debug] 	found io.kamon#kamino-reporter_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamino-reporter_2.11;1.0.0 [compile->runtime]
@@ -499,7 +705,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->io.kamon#kamino-reporter_2.11;1.0.0 [compile->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.aspectj#aspectjrt;1.8.6 [compile->default(compile)]
 [info] Resolving org.aspectj#aspectjrt;1.8.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fd1701
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67794016
 [debug] sbt-chain: module revision found in cache: org.aspectj#aspectjrt;1.8.6
 [debug] 	found org.aspectj#aspectjrt;1.8.6 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.aspectj#aspectjrt;1.8.6 [compile->runtime]
@@ -1734,7 +1940,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.aspectj#aspectjrt;1.8.6 [test->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.5.4 [test->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.5.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e7b590d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a5f88ed
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.5.4
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.5.4 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.5.4 [test->runtime]
@@ -1742,7 +1948,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.5.4 [test->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a6eeb11
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b20477
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
@@ -1750,7 +1956,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2165c272
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1902c69f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -1759,7 +1965,7 @@
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@153e32da
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67b69660
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies default#akka-sample$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -5105,8 +5311,8 @@
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-commons;5.0.3!asm-commons.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
-[debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar
 [debug] 	[NOT REQUIRED] com.github.jnr#jnr-x86asm;1.0.2!jnr-x86asm.jar
@@ -5178,15 +5384,7 @@
 [debug] 	[NOT REQUIRED] io.kamon#kamon-statsd_2.11;0.6.7!kamon-statsd_2.11.jar
 [debug] 	[NOT REQUIRED] io.kamon#kamon-statsd_2.11;0.6.7!kamon-statsd_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.kamon#kamino-reporter_2.11;1.0.0!kamino-reporter_2.11.jar
-[debug] 		tried /Users/ashokwaghmare/.ivy2/local/io.kamon/kamino-reporter_2.11/1.0.0/srcs/kamino-reporter_2.11-sources.jar
-[debug] 		tried /Users/ashokwaghmare/.activator/repository/io.kamon/kamino-reporter_2.11/1.0.0/srcs/kamino-reporter_2.11-sources.jar
-[debug] 		tried /Users/ashokwaghmare/Downloads/Apps/activator-dist-1.3.12/repository/io.kamon/kamino-reporter_2.11/1.0.0/srcs/kamino-reporter_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0-sources.jar
-[info] 	[SUCCESSFUL ] io.kamon#kamino-reporter_2.11;1.0.0!kamino-reporter_2.11.jar(src) (1485ms)
+[debug] 	[NOT REQUIRED] io.kamon#kamino-reporter_2.11;1.0.0!kamino-reporter_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.aspectj#aspectjrt;1.8.6!aspectjrt.jar(src)
 [debug] 	[NOT REQUIRED] org.aspectj#aspectjrt;1.8.6!aspectjrt.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.5.4!akka-testkit_2.11.jar
@@ -5202,7 +5400,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.aspectj#aspectjweaver;1.8.6!aspectjweaver.jar(src)
-[debug] :: resolution report :: resolve 1628ms :: artifacts dl 1554ms
+[debug] :: resolution report :: resolve 28620ms :: artifacts dl 78ms
 [debug] 	report for default#akka-sample$sources_2.11;1.0 compile produced in /Users/ashokwaghmare/projects/akka-sample/target/resolution-cache/reports/default-akka-sample$sources_2.11-compile.xml
 [debug] 	report for default#akka-sample$sources_2.11;1.0 runtime produced in /Users/ashokwaghmare/projects/akka-sample/target/resolution-cache/reports/default-akka-sample$sources_2.11-runtime.xml
 [debug] 	report for default#akka-sample$sources_2.11;1.0 test produced in /Users/ashokwaghmare/projects/akka-sample/target/resolution-cache/reports/default-akka-sample$sources_2.11-test.xml
@@ -5218,4 +5416,4 @@
 [debug] 	report for default#akka-sample$sources_2.11;1.0 scala-tool produced in /Users/ashokwaghmare/projects/akka-sample/target/resolution-cache/reports/default-akka-sample$sources_2.11-scala-tool.xml
 [debug] 	report for default#akka-sample$sources_2.11;1.0 weaver-compile-configuration produced in /Users/ashokwaghmare/projects/akka-sample/target/resolution-cache/reports/default-akka-sample$sources_2.11-weaver-compile-configuration.xml
 [debug] 	report for default#akka-sample$sources_2.11;1.0 weaver-scope produced in /Users/ashokwaghmare/projects/akka-sample/target/resolution-cache/reports/default-akka-sample$sources_2.11-weaver-scope.xml
-[debug] 	resolve done (1628ms resolve - 1554ms download)
+[debug] 	resolve done (28620ms resolve - 78ms download)

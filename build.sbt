@@ -12,8 +12,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.4" % "test",
   "com.typesafe.akka" %% "akka-cluster-sharding" % "2.5.8",
 
-
-
   "io.kamon" %% "kamon-core" % "1.0.0",
   "io.kamon" %% "kamon-akka-2.5" % "1.0.0",
   "io.kamon" %% "kamon-prometheus" % "1.0.0",

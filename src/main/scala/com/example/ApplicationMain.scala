@@ -3,6 +3,7 @@ package com.example
 import akka.actor.{ActorSystem, Props}
 import akka.cluster.sharding._
 import kamon.Kamon
+import kamon.akka
 import kamon.executors.Executors
 import kamon.jaeger.Jaeger
 import kamon.kamino.{KaminoReporter, KaminoTracingReporter}
@@ -16,13 +17,14 @@ final case class ForIdentifier(id: String, msg: Any)
 object ApplicationMain extends App {
   implicit val numberOfShards: Int = 100
 
+  Kamon.loadReportersFromConfig()
 
   val system = ActorSystem("MyActorSystem")
-  Kamon.loadReportersFromConfig()
 
 
  // Kamon.addReporter(new ZipkinReporter())
  // Kamon.addReporter(new Jaeger())
+
 
  /* val pingRegion = ClusterSharding(system).start(
     typeName = "SupervisedCounter",
@@ -42,37 +44,40 @@ object ApplicationMain extends App {
 
   println("about to send msg for ping..")
 
-  /*Kamon.withContextKey(, Some("1234")) {
+    /*Kamon.withContextKey(, Some("1234")) {
     pingRegion ! "Some Message"
   }*/
 
 
   pingRegion ! Added(2)
   pingRegion ! Added(4)
-  //pingRegion ! Added(6)
-  //pingRegion ! Added(9)
+  pingRegion ! Added(6)
+  pingRegion ! Added(9)
   //pingRegion ! Subtracted(9)
   //pingRegion ! ForIdentifier("1", Added(2))
   //pingRegion ! ForIdentifier("1", Added(2))
-  Kamon.tracer.buildSpan("event fired.. add")
- // Kamon.counter("some event")
-  Kamon.addReporter(new PrometheusReporter())
-  Kamon.addReporter(new ZipkinReporter())
+  //Kamon.tracer.buildSpan("event fired.. add")
+//  Kamon.counter("some event")
+
 
   pingRegion ! Subtracted(10)
   pingRegion ! Subtracted(11)
-  Kamon.tracer.buildSpan("event fired.. add")
+  pingRegion ! Subtracted(11)
+  pingRegion ! Subtracted(11)
 
+ // Kamon.tracer.buildSpan("event fired.. add11")
 
-
- /* val myHistogram = Kamon.histogram("my.histogram")
+  val myHistogram = Kamon.histogram("my.histogram")
   val myCounter = Kamon.counter(system.name)
   val myTaggedCounter = Kamon.counter("my.tagged.counter").refine("env" -> "test")
 
   myHistogram.record(42)
   myHistogram.record(50)
   myCounter.increment()
-  myTaggedCounter.increment()*/
+  myTaggedCounter.increment()
+
+  Kamon.addReporter(new PrometheusReporter())
+  Kamon.addReporter(new ZipkinReporter())
 
   //  Kamon.counter("",  )
 
