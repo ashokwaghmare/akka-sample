@@ -4,7 +4,7 @@
 		module="akka-sample_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20171224183605"
+		publication="20180218145020"
 	>
 		<description>
 		akka-sample
@@ -24,6 +24,8 @@
 		<conf name="docs" visibility="public" description=""/>
 		<conf name="pom" visibility="public" description=""/>
 		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="weaver-compile-configuration" visibility="private" description="" extends="runtime-internal"/>
+		<conf name="weaver-scope" visibility="private" description=""/>
 	</configurations>
 	<publications>
 		<artifact name="akka-sample_2.11" type="pom" ext="pom" conf="pom"/>
@@ -34,15 +36,18 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.11" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.11" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.8.6" conf="weaver-scope->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.5.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.5.4" conf="test->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="test->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-persistence_2.11" rev="2.5.4" conf="compile->default(compile)"/>
-		<dependency org="org.iq80.leveldb" name="leveldb" rev="0.7" conf="compile->default(compile)"/>
-		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-all" rev="1.8" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-cluster-sharding_2.11" rev="2.5.8" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-persistence-query_2.11" rev="2.5.8" conf="compile->default(compile)"/>
-		<dependency org="com.amazonaws" name="aws-java-sdk-dynamodb" rev="1.11.253" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-persistence-dynamodb_2.11" rev="1.1.0" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-core_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-akka-2.5_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-prometheus_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-zipkin_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-jaeger_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-statsd_2.11" rev="0.6.7" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamino-reporter_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.aspectj" name="aspectjrt" rev="1.8.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

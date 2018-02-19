@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: io.opentracing:opentracing-noop:0.30.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.opentracing/opentracing-noop/jars/opentracing-noop-0.30.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.opentracing/opentracing-noop/srcs/opentracing-noop-0.30.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

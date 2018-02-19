@@ -6,8 +6,8 @@
 		module="akka-sample_2.11"
 		revision="1.0"
 		conf="sources"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171224183605"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, weaver-compile-configuration, weaver-scope"
+		date="20180218145020"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

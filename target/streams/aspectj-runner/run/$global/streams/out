@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mRunning com.example.ApplicationMain [0m
+[0m[[31merror[0m] [0mobjc[38385]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java (0x10888c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1089184e0). One of the two will be used. Which one is undefined.[0m
+[0m[[31merror[0m] [0m[AppClassLoader@18b4aac2] warning at akka/kamon/instrumentation/ActorLoggingInstrumentation.scala::0 no match for this type name: akka.event.slf4j.Slf4jLogger [Xlint:invalidAbsoluteTypeName][0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:39.740] [main] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.118] [main] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://MyActorSystem@127.0.0.1:2552][0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.131] [main] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://MyActorSystem@127.0.0.1:2552][0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.177] [main] [akka.cluster.Cluster(akka://MyActorSystem)] Cluster Node [akka.tcp://MyActorSystem@127.0.0.1:2552] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.464] [main] [akka.cluster.Cluster(akka://MyActorSystem)] Cluster Node [akka.tcp://MyActorSystem@127.0.0.1:2552] - Registered cluster JMX MBean [akka:type=Cluster][0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.464] [main] [akka.cluster.Cluster(akka://MyActorSystem)] Cluster Node [akka.tcp://MyActorSystem@127.0.0.1:2552] - Started up successfully[0m
+[0m[[0minfo[0m] [0m12:33:40.576 [main] INFO kamon.ReporterRegistry - The kamon.reporters setting is empty, no reporters have been started.[0m
+[0m[[0minfo[0m] [0mabout to send msg for ping..[0m
+[0m[[0minfo[0m] [0madding event ..2[0m
+[0m[[0minfo[0m] [0madding event ..4[0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.664] [MyActorSystem-akka.actor.default-dispatcher-2] [akka.cluster.Cluster(akka://MyActorSystem)] Cluster Node [akka.tcp://MyActorSystem@127.0.0.1:2552] - Node [akka.tcp://MyActorSystem@127.0.0.1:2552] is JOINING, roles [dc-default][0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:33:40.743] [MyActorSystem-akka.actor.default-dispatcher-2] [akka.cluster.Cluster(akka://MyActorSystem)] Cluster Node [akka.tcp://MyActorSystem@127.0.0.1:2552] - Leader is moving node [akka.tcp://MyActorSystem@127.0.0.1:2552] to [Up][0m
+[0m[[0minfo[0m] [0m12:33:40.744 [kamon.prometheus.PrometheusReporter] INFO kamon.prometheus.PrometheusReporter - Started the embedded HTTP server on http://0.0.0.0:9095[0m
+[0m[[0minfo[0m] [0m12:33:40.973 [main] WARN kamon.zipkin.ZipkinReporter - For full Zipkin compatibility enable `kamon.trace.join-remote-parents-with-same-span-id` to preserve span id across client/server sides of a Span.[0m
+[0m[[0minfo[0m] [0m12:33:40.975 [kamon.zipkin.ZipkinReporter] INFO kamon.zipkin.ZipkinReporter - Started the Zipkin reporter.[0m
+[0m[[0minfo[0m] [0msubtracted...[0m
+[0m[[0minfo[0m] [0msubtracted...[0m
+[0m[[0minfo[0m] [0m[INFO] [02/19/2018 12:41:08.491] [MyActorSystem-akka.actor.default-dispatcher-3] [akka.cluster.Cluster(akka://MyActorSystem)] Cluster Node [akka.tcp://MyActorSystem@127.0.0.1:2552] - Marked address [akka.tcp://MyActorSystem@127.0.0.1:2552] as [Leaving][0m
