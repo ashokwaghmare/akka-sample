@@ -7,10 +7,10 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, weaver-compile-configuration, weaver-scope"
-		date="20180218145020"/>
+		date="20180220150639"/>
 	<dependencies>
 		<module organisation="org.aspectj" name="aspectjrt">
-			<revision name="1.8.6" status="release" pubdate="20150607221100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+			<revision name="1.8.6" status="release" pubdate="20150607221100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
 				<metadata-artifact status="no" details="" size="2383" time="0" location="/Users/ashokwaghmare/.ivy2/cache/org.aspectj/aspectjrt/ivy-1.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.8.6/aspectjrt-1.8.6.pom"/>
 				<caller organisation="default" name="akka-sample_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.0"/>
@@ -21,13 +21,49 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="io.kamon" name="kamino-reporter_2.11">
-			<revision name="1.0.0" status="release" pubdate="20180119064047" resolver="public" artresolver="public" homepage="http://kamon.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+		<module organisation="io.kamon" name="kamon-system-metrics_2.11">
+			<revision name="1.0.0" status="release" pubdate="20180119061111" resolver="public" artresolver="public" homepage="http://kamon.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="62">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1752" time="1044" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamino-reporter_2.11/ivy-1.0.0.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamino-reporter_2.11/ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2785" time="1158" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-system-metrics_2.11/ivy-1.0.0.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-system-metrics_2.11/ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/kamon/kamon-system-metrics_2.11/1.0.0/kamon-system-metrics_2.11-1.0.0.pom"/>
 				<caller organisation="default" name="akka-sample_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="kamino-reporter_2.11" type="jar" ext="jar" status="successful" details="" size="2285818" time="3301" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamino-reporter_2.11/jars/kamino-reporter_2.11-1.0.0.jar">
+					<artifact name="kamon-system-metrics_2.11" type="jar" ext="jar" status="successful" details="" size="204687" time="2907" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-system-metrics_2.11/jars/kamon-system-metrics_2.11-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/kamon/kamon-system-metrics_2.11/1.0.0/kamon-system-metrics_2.11-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.kamon" name="sigar-loader">
+			<revision name="1.6.5-rev002" status="release" pubdate="20150812210824" resolver="public" artresolver="public" homepage="http://kamon.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3233" time="1185" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/sigar-loader/ivy-1.6.5-rev002.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/sigar-loader/ivy-1.6.5-rev002.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/kamon/sigar-loader/1.6.5-rev002/sigar-loader-1.6.5-rev002.pom"/>
+				<caller organisation="io.kamon" name="kamon-system-metrics_2.11" conf="default, compile, runtime, master" rev="1.6.5-rev002" rev-constraint-default="1.6.5-rev002" rev-constraint-dynamic="1.6.5-rev002" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="sigar-loader" type="jar" ext="jar" status="successful" details="" size="2542694" time="7309" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/sigar-loader/jars/sigar-loader-1.6.5-rev002.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/kamon/sigar-loader/1.6.5-rev002/sigar-loader-1.6.5-rev002.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjweaver">
+			<revision name="1.8.1" status="release" pubdate="20140625012812" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/ashokwaghmare/.ivy2/cache/org.aspectj/aspectjweaver/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.8.1/aspectjweaver-1.8.1.pom"/>
+				<caller organisation="default" name="akka-sample_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aspectjweaver" type="jar" ext="jar" status="no" details="" size="1859826" time="0" location="/Users/ashokwaghmare/.ivy2/cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.8.1/aspectjweaver-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.kamon" name="kamino-reporter_2.11">
+			<revision name="1.0.0" status="release" pubdate="20180119064047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kamon.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamino-reporter_2.11/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0.pom"/>
+				<caller organisation="default" name="akka-sample_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="kamino-reporter_2.11" type="jar" ext="jar" status="no" details="" size="2285818" time="0" location="/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamino-reporter_2.11/jars/kamino-reporter_2.11-1.0.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/kamon/kamino-reporter_2.11/1.0.0/kamino-reporter_2.11-1.0.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -71,7 +107,7 @@
 		</module>
 		<module organisation="com.google.code.gson" name="gson">
 			<revision name="2.8.0" status="release" pubdate="20161027113242" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
-				<metadata-artifact status="successful" details="" size="1447" time="1233" location="/Users/ashokwaghmare/.ivy2/cache/com.google.code.gson/gson/ivy-2.8.0.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/com.google.code.gson/gson/ivy-2.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1447" time="1133" location="/Users/ashokwaghmare/.ivy2/cache/com.google.code.gson/gson/ivy-2.8.0.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/com.google.code.gson/gson/ivy-2.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom"/>
 				<caller organisation="com.uber.jaeger" name="jaeger-core" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="0.21.0"/>
 				<artifacts>
 					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="231952" time="0" location="/Users/ashokwaghmare/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.8.0.jar">
@@ -164,7 +200,7 @@
 		</module>
 		<module organisation="com.squareup.okhttp3" name="okhttp">
 			<revision name="3.9.1" status="release" pubdate="20171119010940" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
-				<metadata-artifact status="successful" details="" size="1692" time="1003" location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.9.1.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1692" time="1036" location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.9.1.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.pom"/>
 				<caller organisation="com.uber.jaeger" name="jaeger-core" conf="compile, runtime" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.21.0"/>
 				<caller organisation="io.zipkin.reporter2" name="zipkin-sender-okhttp3" conf="compile, runtime" rev="3.9.1" rev-constraint-default="3.9.1" rev-constraint-dynamic="3.9.1" callerrev="2.2.3"/>
 				<artifacts>
@@ -206,7 +242,7 @@
 		</module>
 		<module organisation="com.squareup.okio" name="okio">
 			<revision name="1.13.0" status="release" pubdate="20170512215419" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
-				<metadata-artifact status="successful" details="" size="1632" time="1092" location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okio/okio/ivy-1.13.0.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okio/okio/ivy-1.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1632" time="1133" location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okio/okio/ivy-1.13.0.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okio/okio/ivy-1.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.13.0/okio-1.13.0.pom"/>
 				<caller organisation="com.squareup.okhttp3" name="okhttp" conf="compile, runtime" rev="1.13.0" rev-constraint-default="1.13.0" rev-constraint-dynamic="1.13.0" callerrev="3.9.1"/>
 				<artifacts>
 					<artifact name="okio" type="jar" ext="jar" status="no" details="" size="81811" time="0" location="/Users/ashokwaghmare/.ivy2/cache/com.squareup.okio/okio/jars/okio-1.13.0.jar">
@@ -229,7 +265,7 @@
 		</module>
 		<module organisation="org.nanohttpd" name="nanohttpd">
 			<revision name="2.3.1" status="release" pubdate="20160812234643" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
-				<metadata-artifact status="successful" details="" size="915" time="1319" location="/Users/ashokwaghmare/.ivy2/cache/org.nanohttpd/nanohttpd/ivy-2.3.1.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/org.nanohttpd/nanohttpd/ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom"/>
+				<metadata-artifact status="successful" details="" size="915" time="1128" location="/Users/ashokwaghmare/.ivy2/cache/org.nanohttpd/nanohttpd/ivy-2.3.1.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/org.nanohttpd/nanohttpd/ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom"/>
 				<caller organisation="io.kamon" name="kamon-prometheus_2.11" conf="default, compile, runtime, master" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0.0"/>
 				<artifacts>
 					<artifact name="nanohttpd" type="jar" ext="jar" status="no" details="" size="51211" time="0" location="/Users/ashokwaghmare/.ivy2/cache/org.nanohttpd/nanohttpd/jars/nanohttpd-2.3.1.jar">
@@ -344,6 +380,7 @@
 				<caller organisation="default" name="akka-sample_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
 				<caller organisation="io.kamon" name="kamon-scala-future_2.11" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-executors_2.11" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.1"/>
+				<caller organisation="io.kamon" name="kamon-system-metrics_2.11" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-zipkin_2.11" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-akka-2.5_2.11" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-jaeger_2.11" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
@@ -388,7 +425,7 @@
 		<module organisation="org.hdrhistogram" name="HdrHistogram">
 			<revision name="2.1.9" status="release" pubdate="20160518200331" resolver="public" artresolver="public" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
-				<metadata-artifact status="successful" details="" size="9661" time="1125" location="/Users/ashokwaghmare/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.9.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom"/>
+				<metadata-artifact status="successful" details="" size="9661" time="1223" location="/Users/ashokwaghmare/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.9.xml" searched="true" original-local-location="/Users/ashokwaghmare/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom"/>
 				<caller organisation="io.kamon" name="kamon-core_2.11" conf="default, compile, runtime, master" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="1.0.0"/>
 				<artifacts>
 					<artifact name="HdrHistogram" type="bundle" ext="jar" status="no" details="" size="114165" time="0" location="/Users/ashokwaghmare/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.9.jar">
@@ -835,6 +872,7 @@
 				<caller organisation="io.kamon" name="kamino-reporter_2.11" conf="default, compile, runtime, master" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.0.0"/>
 				<caller organisation="com.lihaoyi" name="sourcecode_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.3"/>
 				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="2.5.8"/>
+				<caller organisation="io.kamon" name="kamon-system-metrics_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-akka-2.5_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-jaeger_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="default" name="akka-sample_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.0"/>
@@ -865,15 +903,16 @@
 			</revision>
 			<revision name="2.11.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<evicted-by rev="2.11.11"/>
-				<caller organisation="io.kamon" name="kamon-statsd_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.7"/>
 				<caller organisation="io.kamon" name="kamon-core_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
-				<caller organisation="com.lihaoyi" name="sourcecode_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.3"/>
 				<caller organisation="io.kamon" name="kamon-scala-future_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.2"/>
 				<caller organisation="com.lihaoyi" name="fansi_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.2.4"/>
+				<caller organisation="io.kamon" name="kamon-zipkin_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
+				<caller organisation="io.kamon" name="kamon-statsd_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.7"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.3"/>
 				<caller organisation="io.kamon" name="kamon-executors_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
-				<caller organisation="io.kamon" name="kamon-zipkin_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
+				<caller organisation="io.kamon" name="kamon-system-metrics_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-akka-2.5_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-jaeger_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
 				<caller organisation="io.kamon" name="kamon-prometheus_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>

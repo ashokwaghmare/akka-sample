@@ -4,7 +4,7 @@
 		module="akka-sample_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180218145020"
+		publication="20180220150639"
 	>
 		<description>
 		akka-sample
@@ -48,6 +48,8 @@
 		<dependency org="io.kamon" name="kamon-jaeger_2.11" rev="1.0.0" conf="compile->default(compile)"/>
 		<dependency org="io.kamon" name="kamon-statsd_2.11" rev="0.6.7" conf="compile->default(compile)"/>
 		<dependency org="io.kamon" name="kamino-reporter_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.8.1" conf="compile->default(compile)"/>
+		<dependency org="io.kamon" name="kamon-system-metrics_2.11" rev="1.0.0" conf="compile->default(compile)"/>
 		<dependency org="org.aspectj" name="aspectjrt" rev="1.8.6" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -10,6 +10,8 @@ import kamon.kamino.{KaminoReporter, KaminoTracingReporter}
 import kamon.prometheus.PrometheusReporter
 import kamon.trace.Tracer
 import kamon.zipkin.ZipkinReporter
+import kamon.statsd.{SimpleStatsDMetricsSender, StatsD, StatsDExtension, UDPBasedStatsDMetricsSender}
+import kamon.system.SystemMetrics
 
 
 
@@ -17,7 +19,11 @@ final case class ForIdentifier(id: String, msg: Any)
 object ApplicationMain extends App {
   implicit val numberOfShards: Int = 100
 
+  SystemMetrics.startCollecting()
   Kamon.loadReportersFromConfig()
+  Kamon.addReporter(new PrometheusReporter())
+  Kamon.addReporter(new ZipkinReporter())
+  //Kamon.addReporter(SimpleStatsDMetricsSender.)
 
   val system = ActorSystem("MyActorSystem")
 
@@ -40,7 +46,7 @@ object ApplicationMain extends App {
 
 
   val pingRegion = system.actorOf(Props[PingActor])
-
+  Kamon.histogram("my-histogram").record(100)
 
   println("about to send msg for ping..")
 
@@ -50,9 +56,65 @@ object ApplicationMain extends App {
 
 
   pingRegion ! Added(2)
+  Thread.sleep(100)
   pingRegion ! Added(4)
+  Thread.sleep(200)
+
+
   pingRegion ! Added(6)
+  Thread.sleep(200)
   pingRegion ! Added(9)
+  Thread.sleep(200)
+  pingRegion ! Added(10)
+  Thread.sleep(200)
+  pingRegion ! Added(11)
+  Thread.sleep(200)
+  pingRegion ! Added(12)
+  Thread.sleep(200)
+  pingRegion ! Added(13)
+  Thread.sleep(200)
+  pingRegion ! Added(14)
+  Thread.sleep(200)
+  pingRegion ! Added(15)
+  Thread.sleep(400)
+  pingRegion ! Added(13)
+  Thread.sleep(400)
+  pingRegion ! Added(6)
+  Thread.sleep(200)
+  pingRegion ! Added(9)
+  Thread.sleep(200)
+  pingRegion ! Added(10)
+  Thread.sleep(200)
+  pingRegion ! Added(11)
+  Thread.sleep(200)
+  pingRegion ! Added(12)
+  Thread.sleep(200)
+  pingRegion ! Added(13)
+  Thread.sleep(200)
+  pingRegion ! Added(14)
+  Thread.sleep(200)
+  pingRegion ! Added(15)
+  Thread.sleep(400)
+  pingRegion ! Added(13)
+  Thread.sleep(400)
+  pingRegion ! Added(6)
+  Thread.sleep(200)
+  pingRegion ! Added(9)
+  Thread.sleep(200)
+  pingRegion ! Added(10)
+  Thread.sleep(200)
+  pingRegion ! Added(11)
+  Thread.sleep(200)
+  pingRegion ! Added(12)
+  Thread.sleep(200)
+  pingRegion ! Added(13)
+  Thread.sleep(200)
+  pingRegion ! Added(14)
+  Thread.sleep(200)
+  pingRegion ! Added(15)
+  Thread.sleep(400)
+  pingRegion ! Added(13)
+  Thread.sleep(400)
   //pingRegion ! Subtracted(9)
   //pingRegion ! ForIdentifier("1", Added(2))
   //pingRegion ! ForIdentifier("1", Added(2))
@@ -67,17 +129,19 @@ object ApplicationMain extends App {
 
  // Kamon.tracer.buildSpan("event fired.. add11")
 
-  val myHistogram = Kamon.histogram("my.histogram")
+
+
+
+  /*val myHistogram = Kamon.histogram("my.histogram")
   val myCounter = Kamon.counter(system.name)
   val myTaggedCounter = Kamon.counter("my.tagged.counter").refine("env" -> "test")
 
   myHistogram.record(42)
   myHistogram.record(50)
   myCounter.increment()
-  myTaggedCounter.increment()
+  myTaggedCounter.increment()*/
 
-  Kamon.addReporter(new PrometheusReporter())
-  Kamon.addReporter(new ZipkinReporter())
+
 
   //  Kamon.counter("",  )
 
@@ -103,7 +167,7 @@ object ApplicationMain extends App {
   pongRegion ! ForIdentifier("2", Subtracted(1))
 */
 
-
+  SystemMetrics.stopCollecting()
   Thread sleep 30000
   //system.terminate()
 

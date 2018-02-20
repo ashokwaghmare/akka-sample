@@ -22,6 +22,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.11:2.2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.aspectj:aspectjweaver:1.8.1:jar" level="project" />
     <orderEntry type="library" name="SBT: io.kamon:kamino-reporter_2.11:1.0.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
     <orderEntry type="library" name="SBT: org.nanohttpd:nanohttpd:2.3.1:jar" level="project" />
@@ -88,5 +89,7 @@
     <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.2.4:jar" level="project" />
     <orderEntry type="library" name="SBT: io.kamon:kamon-statsd_2.11:0.6.7:jar" level="project" />
     <orderEntry type="library" name="SBT: org.aspectj:aspectjrt:1.8.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.kamon:kamon-system-metrics_2.11:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: io.kamon:sigar-loader:1.6.5-rev002:jar" level="project" />
   </component>
 </module>

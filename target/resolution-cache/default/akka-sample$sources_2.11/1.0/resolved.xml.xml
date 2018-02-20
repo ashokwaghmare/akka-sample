@@ -4,7 +4,7 @@
 		module="akka-sample$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180219140933"
+		publication="20180220151247"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -205,6 +205,15 @@
 		</dependency>
 		<dependency org="io.kamon" name="kamino-reporter_2.11" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);weaver-compile-configuration->default(compile)">
 			<artifact name="kamino-reporter_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.8.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);weaver-compile-configuration->default(compile)">
+			<artifact name="aspectjweaver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.kamon" name="kamon-system-metrics_2.11" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);weaver-compile-configuration->default(compile)">
+			<artifact name="kamon-system-metrics_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.kamon" name="sigar-loader" rev="1.6.5-rev002" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);weaver-compile-configuration->default(compile)">
+			<artifact name="sigar-loader" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.aspectj" name="aspectjrt" rev="1.8.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);weaver-compile-configuration->default(compile)">
 			<artifact name="aspectjrt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
