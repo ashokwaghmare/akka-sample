@@ -1,3 +1,3 @@
 resolvers += Resolver.bintrayRepo("kamon-io", "sbt-plugins")
-//addSbtPlugin("io.kamon" % "sbt-aspectj-runner" % "1.0.1")
-addSbtPlugin("io.kamon" % "aspectj-runner" % "0.1.3")
+//addSbtPlugin("com.typesafe.sbt" % "sbt-aspectj" % "0.10.0")
+addSbtPlugin("io.kamon" % "sbt-aspectj-runner" % "1.1.0")

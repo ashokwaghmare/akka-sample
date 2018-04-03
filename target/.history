@@ -1,9 +1,1 @@
-test
-exit
-test
-exit
 run
-update
-reload
-aspectj:run
-aspectj-runner:run

@@ -1,13 +1,12 @@
 package com.example
 
-import akka.NotUsed
-import akka.actor.{Actor, ActorLogging, Props}
-import akka.persistence.PersistentActor
+import akka.actor.{Actor, Props}
 
 trait Event extends Serializable
 trait Cmd
 case class Increment(counter:Int) extends Event
 case class Added(c:Int) extends Cmd
+case class Subtracted(c:Int) extends Cmd
 
 class PingActor extends Actor {
   var counter = 0
@@ -23,8 +22,9 @@ class PingActor extends Actor {
   }
 }
 
+/*
 object PingActor {
   val props = Props[PingActor]
   case object Initialize
   case class PingMessage(text: String)
-}
+}*/

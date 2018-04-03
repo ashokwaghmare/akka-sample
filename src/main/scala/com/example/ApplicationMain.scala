@@ -1,17 +1,8 @@
 package com.example
 
 import akka.actor.{ActorSystem, Props}
-import akka.cluster.sharding._
 import kamon.Kamon
-import kamon.akka
-import kamon.executors.Executors
-import kamon.jaeger.Jaeger
-import kamon.kamino.{KaminoReporter, KaminoTracingReporter}
 import kamon.prometheus.PrometheusReporter
-import kamon.trace.Tracer
-import kamon.zipkin.ZipkinReporter
-import kamon.statsd.{SimpleStatsDMetricsSender, StatsD, StatsDExtension, UDPBasedStatsDMetricsSender}
-import kamon.system.SystemMetrics
 
 
 
@@ -19,13 +10,23 @@ final case class ForIdentifier(id: String, msg: Any)
 object ApplicationMain extends App {
   implicit val numberOfShards: Int = 100
 
-  SystemMetrics.startCollecting()
+
+
+  //SystemMetrics.startCollecting()
+
+  //Kamon.addReporter(new ZipkinReporter())
+  //Kamon.addReporter(SimpleStatsDMetricsSender.)
   Kamon.loadReportersFromConfig()
   Kamon.addReporter(new PrometheusReporter())
-  Kamon.addReporter(new ZipkinReporter())
-  //Kamon.addReporter(SimpleStatsDMetricsSender.)
-
   val system = ActorSystem("MyActorSystem")
+
+
+  /*val config = ConfigFactory.load
+
+  val p = config.getString("akka.actor.provider")
+  val newConfig = config.withValue("akka.actor.provider", ConfigValueFactory.fromAnyRef("diffrentval"))
+  val p1 = newConfig.getString("akka.actor.provider")
+  val p2 = newConfig.getString("akka.persistence.journal.plugin")*/
 
 
  // Kamon.addReporter(new ZipkinReporter())
@@ -46,7 +47,7 @@ object ApplicationMain extends App {
 
 
   val pingRegion = system.actorOf(Props[PingActor])
-  Kamon.histogram("my-histogram").record(100)
+  //Kamon.histogram("my-histogram").record(100)
 
   println("about to send msg for ping..")
 
@@ -56,27 +57,19 @@ object ApplicationMain extends App {
 
 
   pingRegion ! Added(2)
-  Thread.sleep(100)
+  Thread.sleep(200)
+  pingRegion ! Added(4)
+  pingRegion ! Added(4)
+  pingRegion ! Added(4)
+  Thread.sleep(200)
+  pingRegion ! Added(4)
+  pingRegion ! Added(4)
+  Thread.sleep(200)
   pingRegion ! Added(4)
   Thread.sleep(200)
 
 
-  pingRegion ! Added(6)
-  Thread.sleep(200)
-  pingRegion ! Added(9)
-  Thread.sleep(200)
-  pingRegion ! Added(10)
-  Thread.sleep(200)
-  pingRegion ! Added(11)
-  Thread.sleep(200)
-  pingRegion ! Added(12)
-  Thread.sleep(200)
-  pingRegion ! Added(13)
-  Thread.sleep(200)
-  pingRegion ! Added(14)
-  Thread.sleep(200)
-  pingRegion ! Added(15)
-  Thread.sleep(400)
+
   pingRegion ! Added(13)
   Thread.sleep(400)
   pingRegion ! Added(6)
@@ -97,24 +90,9 @@ object ApplicationMain extends App {
   Thread.sleep(400)
   pingRegion ! Added(13)
   Thread.sleep(400)
-  pingRegion ! Added(6)
-  Thread.sleep(200)
-  pingRegion ! Added(9)
-  Thread.sleep(200)
-  pingRegion ! Added(10)
-  Thread.sleep(200)
-  pingRegion ! Added(11)
-  Thread.sleep(200)
-  pingRegion ! Added(12)
-  Thread.sleep(200)
-  pingRegion ! Added(13)
-  Thread.sleep(200)
-  pingRegion ! Added(14)
-  Thread.sleep(200)
-  pingRegion ! Added(15)
-  Thread.sleep(400)
-  pingRegion ! Added(13)
-  Thread.sleep(400)
+  //pingRegion ! ForIdentifier("1", Added(2))
+  //pingRegion ! ForIdentifier("1", Added(2))
+  //pingRegion ! ForIdentifier("1", Added(2))
   //pingRegion ! Subtracted(9)
   //pingRegion ! ForIdentifier("1", Added(2))
   //pingRegion ! ForIdentifier("1", Added(2))
@@ -131,19 +109,18 @@ object ApplicationMain extends App {
 
 
 
-
-  /*val myHistogram = Kamon.histogram("my.histogram")
+  val myHistogram = Kamon.histogram("my.histogram")
   val myCounter = Kamon.counter(system.name)
   val myTaggedCounter = Kamon.counter("my.tagged.counter").refine("env" -> "test")
 
-  myHistogram.record(42)
-  myHistogram.record(50)
+  //myHistogram.record(42)
+  //myHistogram.record(50)
   myCounter.increment()
-  myTaggedCounter.increment()*/
+  myTaggedCounter.increment()
 
 
 
-  //  Kamon.counter("",  )
+    //Kamon.counter("onnnn",  )
 
   /*pingRegion ! ForIdentifier("1", Added(2))
   pingRegion ! ForIdentifier("1", Added(2))
@@ -165,9 +142,10 @@ object ApplicationMain extends App {
 
   /*println("about to send msg for pong..")
   pongRegion ! ForIdentifier("2", Subtracted(1))
+
 */
 
-  SystemMetrics.stopCollecting()
+ // Kamon.addReporter(new PrometheusReporter())
   Thread sleep 30000
   //system.terminate()
 

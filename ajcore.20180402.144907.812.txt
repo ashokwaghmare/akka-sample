@@ -1,0 +1,180 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.8.6 built on Friday Jun 5, 2015 at 23:41:42 GMT
+---- Dump Properties ---
+Dump file: ajcore.20180402.144907.812.txt
+Dump reason: org.aspectj.bridge.AbortException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+Message: abort trouble in: 
+kamon.scala.instrumentation.FutureInstrumentation -- (IllegalStateException) there is no classname for invokedynamic
+there is no classname for invokedynamic
+java.lang.IllegalStateException: there is no classname for invokedynamic
+	at org.aspectj.apache.bcel.generic.InvokeDynamic.getClassName(InvokeDynamic.java:126)
+	at org.aspectj.weaver.bcel.BcelAccessForInlineMunger.openAroundAdvice(BcelAccessForInlineMunger.java:141)
+	at org.aspectj.weaver.bcel.BcelAccessForInlineMunger.munge(BcelAccessForInlineMunger.java:80)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:440)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:100)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1689)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1633)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1398)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1155)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:527)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:363)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:121)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:54)
+	at sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:428)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at scala.concurrent.impl.CallbackRunnable.<init>(Promise.scala:54)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:287)
+	at scala.concurrent.Future.map$(Future.scala:287)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:653)
+	at kamon.ReporterRegistry$Default.addMetricReporter(ReporterRegistry.scala:136)
+	at kamon.ReporterRegistry$Default.addReporter(ReporterRegistry.scala:105)
+	at kamon.Kamon$.addReporter(Kamon.scala:150)
+	at com.example.ApplicationMain$.delayedEndpoint$com$example$ApplicationMain$1(ApplicationMain.scala:20)
+	at com.example.ApplicationMain$delayedInit$body.apply(ApplicationMain.scala:10)
+	at scala.Function0.apply$mcV$sp(Function0.scala:34)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:34)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.App.main(App.scala:76)
+	at scala.App.main$(App.scala:74)
+	at com.example.ApplicationMain$.main(ApplicationMain.scala:10)
+	at com.example.ApplicationMain.main(ApplicationMain.scala)
+
+org.aspectj.bridge.AbortException: trouble in: 
+kamon.scala.instrumentation.FutureInstrumentation
+	at org.aspectj.bridge.MessageWriter.handleMessage(MessageWriter.java:47)
+	at org.aspectj.weaver.tools.WeavingAdaptor$WeavingAdaptorMessageWriter.handleMessage(WeavingAdaptor.java:797)
+	at org.aspectj.weaver.tools.WeavingAdaptor$WeavingAdaptorMessageHolder.handleMessage(WeavingAdaptor.java:742)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1715)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1633)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1398)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1155)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:527)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:363)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:121)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:54)
+	at sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:428)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at scala.concurrent.impl.CallbackRunnable.<init>(Promise.scala:54)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:287)
+	at scala.concurrent.Future.map$(Future.scala:287)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:653)
+	at kamon.ReporterRegistry$Default.addMetricReporter(ReporterRegistry.scala:136)
+	at kamon.ReporterRegistry$Default.addReporter(ReporterRegistry.scala:105)
+	at kamon.Kamon$.addReporter(Kamon.scala:150)
+	at com.example.ApplicationMain$.delayedEndpoint$com$example$ApplicationMain$1(ApplicationMain.scala:20)
+	at com.example.ApplicationMain$delayedInit$body.apply(ApplicationMain.scala:10)
+	at scala.Function0.apply$mcV$sp(Function0.scala:34)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:34)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.App.main(App.scala:76)
+	at scala.App.main$(App.scala:74)
+	at com.example.ApplicationMain$.main(ApplicationMain.scala:10)
+	at com.example.ApplicationMain.main(ApplicationMain.scala)
+---- System Properties ---
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib
+java.vm.version=25.151-b12
+gopherProxySet=false
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=US
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/ashokwaghmare/projects/akka-sample
+java.runtime.version=1.8.0_151-b12
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed
+os.arch=x86_64
+java.io.tmpdir=/var/folders/5g/b27mz9g553sdzyhzxlpq2_qm0000gn/T/
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Mac OS X
+sun.jnu.encoding=UTF-8
+java.library.path=/Users/ashokwaghmare/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=10.13.3
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+user.home=/Users/ashokwaghmare
+user.timezone=Asia/Kolkata
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+file.encoding=UTF-8
+java.specification.version=1.8
+java.class.path=/Users/ashokwaghmare/projects/akka-sample/target/scala-2.12/classes:/Users/ashokwaghmare/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar:/Users/ashokwaghmare/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.9.jar:/Users/ashokwaghmare/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar:/Users/ashokwaghmare/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-core_2.12/jars/kamon-core_2.12-1.0.0.jar:/Users/ashokwaghmare/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/Users/ashokwaghmare/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.9.jar:/Users/ashokwaghmare/.ivy2/cache/com.lihaoyi/fansi_2.12/jars/fansi_2.12-0.2.4.jar:/Users/ashokwaghmare/.ivy2/cache/com.lihaoyi/sourcecode_2.12/jars/sourcecode_2.12-0.1.3.jar:/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-akka-2.5_2.12/jars/kamon-akka-2.5_2.12-1.0.0.jar:/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-scala-future_2.12/jars/kamon-scala-future_2.12-1.0.0.jar:/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-executors_2.12/jars/kamon-executors_2.12-1.0.1.jar:/Users/ashokwaghmare/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar:/Users/ashokwaghmare/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar:/Users/ashokwaghmare/.ivy2/cache/io.kamon/kamon-prometheus_2.12/jars/kamon-prometheus_2.12-1.0.0.jar:/Users/ashokwaghmare/.ivy2/cache/org.nanohttpd/nanohttpd/jars/nanohttpd-2.3.1.jar:/Users/ashokwaghmare/.ivy2/cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.8.6.jar:/Users/ashokwaghmare/.ivy2/cache/org.aspectj/aspectjrt/jars/aspectjrt-1.8.2.jar:/Users/ashokwaghmare/.ivy2/cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.8.6.jar
+user.name=ashokwaghmare
+java.vm.specification.version=1.8
+sun.java.command=com.example.ApplicationMain
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+sun.arch.data.model=64
+user.language=en
+java.specification.vendor=Oracle Corporation
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_151
+java.ext.dirs=/Users/ashokwaghmare/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes
+java.vendor=Oracle Corporation
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding=UnicodeBig
+sun.cpu.endian=little
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.cpu.isalist=
+---- Command Line ---
+Empty
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+Empty
