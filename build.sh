@@ -1,2 +1,2 @@
 #!/bin/bash
- ./sbt test
+ sbt test
